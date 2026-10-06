@@ -7,7 +7,7 @@
 |---|---|---|
 | Nguyễn Đình Tuấn Anh | 2A202602735 | 100% |
 
-- Nhà cung cấp và mô hình (`LAB_MODEL`, không ghi khóa API), nhiệt độ (`LAB_TEMPERATURE`), `recursion_limit`: `ag/gemini-3.7-flash-medium` qua OpenAI-compatible API (`LAB_BASE_URL=http://localhost:20128/v1`), `LAB_TEMPERATURE=0`, `recursion_limit=60`
+- Nhà cung cấp và mô hình (`LAB_MODEL`, không ghi khóa API), nhiệt độ (`LAB_TEMPERATURE`), `recursion_limit`: `ag/gemini-3.7-flash-medium` qua OpenAI-compatible API (`LAB_BASE_URL=http://localhost:20128/v1`), `LAB_TEMPERATURE=0`, `recursion_limit=60` (dùng 9router)
 - Phiên bản Deep Agents (`pip show deepagents`), hệ điều hành, chạy trực tiếp hay trong Docker: `deepagents 0.7.21`, Linux (Ubuntu 24.04), chạy trực tiếp.
 - Số lần chạy tác vụ đã dùng / ngân sách: 21 / 30
 - Commit của tag `freeze`: `25d1f5d`
